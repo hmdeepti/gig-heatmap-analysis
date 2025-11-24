@@ -1,0 +1,5 @@
+gig_id,worker_id,lat,lon,no_show,shift
+G001,W104,12.9900,77.5800,1,morning
+G002,W102,12.9600,77.6200,1,afternoon
+G003,W106,12.9550,77.6100,1,night
+G003,W110,12.9550,77.6100,0,night
