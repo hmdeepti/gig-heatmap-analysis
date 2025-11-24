@@ -1,0 +1,36 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "layers": [
+        {
+          "id": "worker-heatmap",
+          "type": "heatmap",
+          "config": {
+            "dataId": "Workers",
+            "label": "Worker Density",
+            "color": [255, 0, 0]
+          }
+        },
+        {
+          "id": "gig-points",
+          "type": "point",
+          "config": {
+            "dataId": "Gigs",
+            "label": "Gig Locations",
+            "color": [0, 128, 255],
+            "radius": 10
+          }
+        },
+        {
+          "id": "no-show-cluster",
+          "type": "cluster",
+          "config": {
+            "dataId": "No Show History",
+            "label": "No Show Hotspots"
+          }
+        }
+      ]
+    }
+  }
+}
